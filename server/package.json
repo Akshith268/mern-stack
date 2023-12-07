@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "browser": {
+    "buffer": false,
+    "crypto": false,
+    "stream": false,
+    "util": false
+  }
+}
